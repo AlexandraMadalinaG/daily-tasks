@@ -1,0 +1,47 @@
+@media screen and (max-width: 1978px) {
+    .todo {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #container {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .container .background {
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        object-fit: cover;
+    }
+    .todo {
+        max-width: 800px;
+    }
+    .row,
+    #container-list {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .todo {
+        margin-top: 2rem;
+    }
+
+    .row {
+        border-radius: 30px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .todo {
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .todo {
+        max-width: 380px;
+    }
+}
